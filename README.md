@@ -61,6 +61,34 @@ The script generates the following outputs:
 ### Q.2 Account Number and Password generator
  ####  Output Generation
 The following script generates a random password and account number with fixed lengths and specific constraints.
+ 
+##### Password Generation
+- **Length**: Between 8 and 10 characters.
+- **Constraints**:
+  - At least one uppercase letter.
+  - At least one lowercase letter.
+  - At least one symbol.
+- **Filling**: Remaining characters are random from a set of uppercase letters, lowercase letters, and symbols.
 
+##### Account Number Generation
+- **Length**: Between 12 and 14 digits.
+- **Valid Digits**: `0, 4, 6, 7, 9`.
+- **Constraints**:
+  - No leading zeros.
+  - Each digit appears a maximum of 3 times.
+Note:  By choosing the digits , no combination of 3 digit will form a Fibonacci series.
 
+#### Q.3 Show Directory 
+ ####  Output Generation
+
+The script lists all directories in the current directory (where it is executed) and displays their sizes in ascending order.
+##### Key Features 
+
+ **Check for Directories:**
+   - The script checks if there are any directories in the current directory using `ls -d */`. If no directories are found, it prints a message ("No directories found") and exits.
+
+##### Q.4 Createa and handle Directory 
+####  Output Generation
+
+The script creates the required directory and performs manipulations using the "rename" command.
 
