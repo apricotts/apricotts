@@ -57,6 +57,7 @@ The script generates the following outputs:
 - **List Words Starting with 's' but not followed by 'a'**:
   - Uses `grep` with a regex pattern to find words that start with 's' and are not followed by 'a'.
   - Outputs to `t.txt`.
+**Note** : The output will be stored in Q1_results directory.
 
 ### Q.2 Account Number and Password generator
  ####  Output Generation
