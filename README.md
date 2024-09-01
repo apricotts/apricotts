@@ -30,12 +30,12 @@ Each question has its own folder, containing a shell script  that need to be run
 
 ## Solution Description
 ### Q.1 Processing a given "Quotes" file
- #### Usage
+ ####  Input format
 
  You can run the script with the following syntax . Replace <file_name>  with the name of your input file. 
     ```bash
     ./Q1.sh <file_name>
-Note: if no <file_name> is passed , default "quotes.txt" would be taken as file_name.
+Note: if no <file_name> is passed , default "quotes.txt" would be taken as file_name. If <file_name> invalid then file not found is shown. 
 
 
 #### Output Generation
@@ -58,6 +58,9 @@ The script generates the following outputs:
   - Uses `grep` with a regex pattern to find words that start with 's' and are not followed by 'a'.
   - Outputs to `t.txt`.
 
+### Q.2 Account Number and Password generator
+ ####  Output Generation
+The following script generates a random password and account number with fixed lengths and specific constraints.
 
 
 
