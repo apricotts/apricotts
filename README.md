@@ -7,12 +7,12 @@
 Before running the solutions, ensure your environment is properly configured.
 
 #### Environment Requirements
-- **Operating System**: Any modern OS (Linux, macOS, Windows), preferably Linux or any Unix-based system (recommended)
+- **Operating System**: Any modern OS (Linux, macOS, Windows , Linux or any Unix-based system (recommended ))
 - **Shell**: Bash or a compatible shell to execute the provided scripts
 
 #### Basic Configuration
 1. **Ensure you have a shell environment** (e.g., Bash) installed and configured.
-   - On Windows, you may use Git Bash or WSL (Windows Subsystem for Linux).
+   - On Windows, you may use  WSL (Windows Subsystem for Linux).
 
 2. **Verify that shell scripts have executable permission** in your environment. If needed, grant execute permissions using:
    ```bash
@@ -57,6 +57,7 @@ The script generates the following outputs:
 - **List Words Starting with 's' but not followed by 'a'**:
   - Uses `grep` with a regex pattern to find words that start with 's' and are not followed by 'a'.
   - Outputs to `t.txt`.
+  
 **Note** : The output will be stored in Q1_results directory.
 
 ### Q.2 Account Number and Password generator
@@ -77,6 +78,7 @@ The following script generates a random password and account number with fixed l
 - **Constraints**:
   - No leading zeros.
   - Each digit appears a maximum of 3 times.
+  
 
 **Note**:  By choosing the digits from valid_digit set , no combination of 3 digit will form a Fibonacci series.
 
@@ -93,8 +95,8 @@ The script lists all directories in the current directory (where it is executed)
 ####  Output Generation
 
 The script creates the required directory using "mkdir" and performs manipulations using the "rename" command.
-**Note**: The rename command may need to be installed separately, as it might not be available by default on all systems.
 
+**Note**: The rename command may need to be installed separately, as it might not be available by default on all systems.
 
 
 
