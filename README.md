@@ -76,7 +76,8 @@ The following script generates a random password and account number with fixed l
 - **Constraints**:
   - No leading zeros.
   - Each digit appears a maximum of 3 times.
-Note:  By choosing the digits , no combination of 3 digit will form a Fibonacci series.
+
+**Note**:  By choosing the digits from valid_digit set , no combination of 3 digit will form a Fibonacci series.
 
 #### Q.3 Show Directory 
  ####  Output Generation
