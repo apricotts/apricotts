@@ -91,5 +91,14 @@ The script lists all directories in the current directory (where it is executed)
 ##### Q.4 Createa and handle Directory 
 ####  Output Generation
 
-The script creates the required directory and performs manipulations using the "rename" command.
+The script creates the required directory using "mkdir" and performs manipulations using the "rename" command.
+**Note**: The rename command may need to be installed separately, as it might not be available by default on all systems.
+
+
+
+
+
+
+
+
 
