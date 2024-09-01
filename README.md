@@ -28,5 +28,36 @@ Each question has its own folder, containing a shell script  that need to be run
    ```bash
    ./Q1.sh
 
-## Q.1 Problem Description
+## Solution Description
+### Q.1 Processing a given "Quotes" file
+ #### Usage
+
+ You can run the script with the following syntax . Replace <file_name>  with the name of your input file. 
+    ```bash
+    ./Q1.sh <file_name>
+Note: if no <file_name> is passed , default "quotes.txt" would be taken as file_name.
+
+
+#### Output Generation
+
+The script generates the following outputs:
+
+- **Remove Empty Lines**:
+  - Uses `grep -v '^$'` to filter out empty lines from the input file.
+  - Outputs to `Q1_result/quotes_no_empty.txt`.
+
+- **Remove Duplicates**:
+  - Utilizes `awk` to remove duplicate lines and `sort -u` to ensure unique entries.
+  - Outputs to `Q1_result/quotes_no_dups.txt`.
+
+- **Count Quotes by Personality**:
+  - Extracts the personality name from each line (assuming it's separated by `~`).
+  - Counts the number of quotes per personality and appends this information to `Q1_result/quotes_by_personality.txt`.
+
+- **List Words Starting with 's' but not followed by 'a'**:
+  - Uses `grep` with a regex pattern to find words that start with 's' and are not followed by 'a'.
+  - Outputs to `t.txt`.
+
+
+
 
